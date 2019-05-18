@@ -4,12 +4,11 @@ import './config/ReactotronConfig';
 
 import store from './store';
 
-import TodoList from './components/TodoList';
+import Routes from './routes';
 
 const App = () => (
   <Provider store={store}>
-    <div>Hello</div>
-    <TodoList />
+    <Routes />
   </Provider>
 );
 
